@@ -32,7 +32,7 @@ function App() {
     //     }
     //   })
     let cityInfo = await axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
     )
 
     cityInfo = cityInfo.data
