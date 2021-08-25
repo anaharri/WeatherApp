@@ -3,6 +3,7 @@ import './App.css'
 // import Card from './components/Card.jsx'
 import Cards from './components/Cards.jsx'
 import Nav from './components/Nav.jsx'
+import fetch from 'node-fetch'
 // import data from './data.js'
 
 //Paleta de colores: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
